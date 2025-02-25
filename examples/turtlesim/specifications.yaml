@@ -1,6 +1,6 @@
 setup:
   target_node: /snake_game
-  logger_path: /home/joaomena/catkin_ws/src/runtime_assessment/src/log
+  logger_path: ../log
   topics:
     turtle1/pose: turtlesim/Pose  
     turtle1/cmd_vel: geometry_msgs/Twist  

@@ -86,7 +86,7 @@ class RuntimeAssessmentConfig:
             self.target_node = setup["target_node"]
 
         if "topics" not in keys:
-            self.topics = []
+            raise ValueError("Missing 'topics' in setup")
         else:
             self.topics = setup["topics"]
 
@@ -96,7 +96,7 @@ class RuntimeAssessmentConfig:
             self.rate = setup["rate"]
 
         if "logger_path" not in keys:
-            self.logger_path = "log"
+            self.logger_path = "../log"
         else:
             self.logger_path = setup["logger_path"]
 

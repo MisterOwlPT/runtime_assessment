@@ -1,6 +1,6 @@
 *.ipynb
 # *.yaml
-/src/log
+*log
 .vscode
 *.pyc
 /src/backup.txt

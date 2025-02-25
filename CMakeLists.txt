@@ -9,7 +9,9 @@ project(runtime_assessment)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
+  geometry_msgs
   std_msgs
+  tf2_msgs
 )
 
 ## System dependencies are found with CMake's conventions
